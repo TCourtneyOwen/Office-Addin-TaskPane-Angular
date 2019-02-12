@@ -1,18 +1,22 @@
 {
+  "compileOnSave": false,
   "compilerOptions": {
-    "allowJs": true,
-    "baseUrl": ".",
-    "experimentalDecorators": true,
-    "jsx": "react",
-    "noEmitOnError": true,
-    "outDir": "lib",
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
     "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
     "target": "es5",
-  },
-  "exclude": [
-    "node_modules",
-    "dist",
-    "lib",
-    "lib-amd"
-  ]
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2018",
+      "dom"
+    ]
+  }
 }

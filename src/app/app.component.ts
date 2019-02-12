@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import * as OfficeHelpers from "@microsoft/office-js-helpers";
+// import * as OfficeHelpers from "@microsoft/office-js-helpers";
 const template = require('./app.component.html');
 
 @Component({
@@ -44,8 +44,8 @@ export default class AppComponent {
             console.log(`The range address was ${range.address}.`);
           });
         } catch (error) {
-          OfficeHelpers.UI.notify(error);
-          OfficeHelpers.Utilities.log(error);
+          // OfficeHelpers.UI.notify(error);
+          // OfficeHelpers.Utilities.log(error);
         }
       }
       
