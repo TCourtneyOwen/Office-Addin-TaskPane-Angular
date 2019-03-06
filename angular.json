@@ -45,7 +45,9 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/office-ui-fabric-js/dist/css/fabric.min.css",
+              "./node_modules/office-ui-fabric-js/dist/css/fabric.components.css"
             ],
             "scripts": [],
             "es5BrowserSupport": true
